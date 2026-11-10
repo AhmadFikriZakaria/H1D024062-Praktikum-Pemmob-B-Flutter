@@ -26,3 +26,13 @@ Pada pertemuan kedelapan, saya mulai membuat aplikasi menggunakan Flutter. Saya 
 
 **Kesimpulan Praktikum:**  
 Pada pertemuan kesembilan, saya membuat aplikasi Flutter yang memiliki halaman login, side menu, dan penyimpanan lokal. Saya menambahkan package `shared_preferences` pada `pubspec.yaml` untuk menyimpan username di perangkat. Halaman login dibuat dengan `TextField`, `TextEditingController`, dan `ElevatedButton`. Jika username dan password bernilai `admin`, username disimpan ke local storage, lalu muncul `AlertDialog` dan pengguna diarahkan ke halaman Home menggunakan `Navigator.push` dan `MaterialPageRoute`. Halaman Home membaca kembali username dari local storage dan menampilkannya. Selanjutnya, saya membuat side menu dengan `Drawer`, `DrawerHeader`, dan `ListTile` untuk berpindah ke halaman Home dan About. Nama package pada import saya sesuaikan dari `router_flutter` menjadi `belajarflutter`, dan saya menambahkan import `about_page.dart` pada `sidemenu.dart` karena tidak ada di modul. AppBar pada aplikasi tidak berwarna biru seperti pada modul karena Flutter versi terbaru menggunakan Material 3 sebagai tampilan bawaan.
+
+---
+
+## 📝 Tugas Pertemuan 10
+**Tanggal**: Selasa, 10 November 2026
+
+![Tugas Pertemuan 10](docs/tugas-10.png)
+
+**Kesimpulan Praktikum:**  
+Pada pertemuan kesepuluh, saya membuat REST API dengan CodeIgniter 4 untuk registrasi, login, dan CRUD produk, lalu mengujinya di Postman. Di Flutter, saya membuat model data serta halaman registrasi, login, list produk, detail produk, dan form tambah/ubah produk yang masih memakai data dummy. AppBar tidak berwarna biru seperti pada modul karena Flutter versi terbaru menggunakan Material 3 sebagai tampilan bawaan.
